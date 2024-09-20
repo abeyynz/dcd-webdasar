@@ -52,12 +52,11 @@ function showBiodata(personId) {
             <p>Pekerjaan: Penari</p>
         `;
     }
-
-    // Menghapus kelas 'active' dari semua gambar
+ 
     const allImages = document.querySelectorAll('aside img');
     allImages.forEach(img => img.classList.remove('active'));
 
-    // Menambahkan kelas 'active' pada gambar yang diklik
+ 
     const clickedImage = document.getElementById('foto' + personId);
     clickedImage.classList.add('active');
 }
