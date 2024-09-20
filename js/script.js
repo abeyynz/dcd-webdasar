@@ -7,49 +7,82 @@ function showBiodata(personId) {
         articleTitle.innerText = "Sungho Profile";
         articleImg.src = "img/foto1.jpg";
         articleDetails.innerHTML = `
-            <p>Nama: Orang Pertama</p>
-            <p>Tanggal Lahir: 1 Januari 1990</p>
-            <p>Pekerjaan: Penyanyi</p>
+            <p>Nama: Park Sungho</p>
+            <p>Tanggal Lahir: 4 September 2003</p>
+            <p>MBTI: ENTJ</p>
+            <p>Sungho sangat menyukai seni.
+                Dia anggota tertua di grup.
+                Dia lahir di Wonju, Gangwon, Korea Selatan.
+                Dia menyukai seni dan mengendarai sepeda.
+                Dia mencintai binatang.
+            </p>
         `;
     } else if (personId === 2) {
         articleTitle.innerText = "Riwoo Profile";
         articleImg.src = "img/foto2.jpg";
         articleDetails.innerHTML = `
-            <p>Nama: Orang Kedua</p>
-            <p>Tanggal Lahir: 2 Februari 1992</p>
-            <p>Pekerjaan: Rapper</p>
+            <p>Nama: Lee Sang Hyeok</p>
+            <p>Tanggal Lahir: 22 Oktober 2003</p>
+            <p>MBTI: ISFP</p>
+            <p>Riwoo bersekolah di Hanlim Multi Art School.
+                Dia dekat dengan Yoonwoo TRENDZ dan Hojin eks N.CUS (mereka melakukan dance cover bersama sebelum debut).
+                Dia suka mendengarkan musik.
+            </p>
         `;
     } else if (personId === 3) {
         articleTitle.innerText = "Jaehyun Profile";
         articleImg.src = "img/foto3.jpg";
         articleDetails.innerHTML = `
-            <p>Nama: Orang Ketiga</p>
-            <p>Tanggal Lahir: 3 Maret 1995</p>
-            <p>Pekerjaan: Penari</p>
+            <p>Nama: Myung Jaehyun</p>
+            <p>Tanggal Lahir: 4 Desember 2003</p>
+            <p>MBTI: ENFP</p>
+            <p>Jaehyun adalah mantan trainee YG Entertainment.
+                Dia dulu tinggal di luar negeri.
+                Dia adalah pecinta anjing.
+                Dia memiliki nama belakang yang sangat langka di Korea Selatan.
+                Dia memiliki kakak laki-laki.
+            </p>
         `;
     } else if (personId ===4) {
         articleTitle.innerText = "Taesan Profile";
         articleImg.src = "img/foto4.jpg";
         articleDetails.innerHTML = `
-            <p>Nama: Orang Ketiga</p>
-            <p>Tanggal Lahir: 3 Maret 1995</p>
-            <p>Pekerjaan: Penari</p>
+            <p>Nama: Han Dong Min</p>
+            <p>Tanggal Lahir: 10 Agustus 2004</p>
+            <p>MBTI: INTJ</p>
+            <p>Dia menjadi trainee selama lima sampai enam tahun
+                Dia merupakan lulusan Sekolah Menengah Chungdam.
+                Dia sebelumnya menjadi trainee di Source Music.
+                Dia hobi membaca dan bermain piano
+                Dia menyebut dirinya giant mountain BOYNEXTDOOR.
+            </p>
         `;
     } else if (personId === 5) {
         articleTitle.innerText = "Leehan Profile";
         articleImg.src = "img/foto5.jpg";
         articleDetails.innerHTML = `
-            <p>Nama: Orang Ketiga</p>
-            <p>Tanggal Lahir: 3 Maret 1995</p>
-            <p>Pekerjaan: Penari</p>
+            <p>Nama: Kim Dong Hyun </p>
+            <p>Tanggal Lahir: 20 OKtober 2004</p>
+            <p>MBTI: ESFJ</p>
+            <p>Leehan lahir di Busan, Korea Selatan.
+                Dia memiliki kakak perempuan.
+                Dia menyukai ikan dan tanaman.
+                Ikan favoritnya adalah corydoras.
+                Hobinya memelihara ikan.
+            </p>
         `;
     } else if (personId === 6) {
         articleTitle.innerText = "Woonhak Profile";
         articleImg.src = "img/foto6.jpg";
         articleDetails.innerHTML = `
-            <p>Nama: Orang Ketiga</p>
-            <p>Tanggal Lahir: 3 Maret 1995</p>
-            <p>Pekerjaan: Penari</p>
+            <p>Nama: Kim Woon Hak</p>
+            <p>Tanggal Lahir: 29 November 2006</p>
+            <p>MBTI: ENFP</p>
+            <p>Dia hobi bermain basket.
+                Dia adalah penggemar Michael Jordan.
+                Dia memiliki satu kakak perempuan.
+                Bagi Woonhak, sang kakak adalah orang terfavorit di dunia. Dia sering merindukannya karena mereka tidak bisa sering bertemu.
+            </p>
         `;
     }
  
