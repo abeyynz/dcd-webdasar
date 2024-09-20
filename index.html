@@ -29,18 +29,25 @@
     <main>
         <section id="profile">
             <aside>
-                <img src="img/sungho.jpg" alt="Park Sungho" onclick="biodata(1)" id="foto1">
-                <img src="img/riwoo.jpg" alt="Riwoo" onclick="biodata(2)" id="foto2">
-                <img src="img/jaehyun.jpg" alt="Myung Jaehyun" onclick="biodata(3)" id="foto3">
+                <img src="img/sungho.jpg" alt="Park Sungho" onclick="showBiodata(1)" id="foto1">
+                <img src="img/riwoo.jpg" alt="Riwoo" onclick="showBiodata(2)" id="foto2">
+                <img src="img/jaehyun.jpg" alt="Myung Jaehyun" onclick="showBiodata(3)" id="foto3">
             </aside>
             <article id="bio">
-                <h1>Judul Text</h1>
-                <p>Lorem ipsum dolor sit amet consectetur...</p>
+                <h1 id="bio-title">Profile</h1>
+                <div class="bio-content">
+                    <img id="bio-img" src="img/boy.jpg" alt="boynextdoor">
+                    <div class="bio-details" id="bio-details">
+                        <p>Nama: Klik salah satu foto untuk melihat biodata.</p>
+                        <p>Tanggal Lahir:</p>
+                        <p>Pekerjaan:</p>
+                    </div>
+                </div>
             </article>
             <aside>
-                <img src="img/taesan.jpg" alt="Han Taesan" onclick="biodata(4)" id="foto4">
-                <img src="img/leehan.jpg" alt="Leehan" onclick="biodata(5)" id="foto5">
-                <img src="img/woonhak.jpg" alt="Woonhak" onclick="biodata(6)" id="foto6">
+                <img src="img/taesan.jpg" alt="Han Taesan" onclick="showBiodata(4)" id="foto4">
+                <img src="img/leehan.jpg" alt="Leehan" onclick="showBiodata(5)" id="foto5">
+                <img src="img/woonhak.jpg" alt="Woonhak" onclick="showBiodata(6)" id="foto6">
             </aside>
         </section>
 
@@ -50,14 +57,6 @@
             </div>
             <article>
                 
-            </article>
-        </section>
-
-        <section id="about">
-            <article>
-                <h3>Judul Text</h3>
-                <p>1. Lorem ipsum dolor sit amet consectetur...</p>
-                <p>2. Pellentesque cursus dolor nec...</p>
             </article>
         </section>
     </main>
