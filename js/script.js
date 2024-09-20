@@ -60,3 +60,23 @@ function showBiodata(personId) {
     const clickedImage = document.getElementById('foto' + personId);
     clickedImage.classList.add('active');
 }
+let currentIndex = 0;
+
+function moveSlider(n) {
+    const sliderContainer = document.querySelector('.slider-container');
+    const cards = document.querySelectorAll('.card');
+    const cardWidth = cards[0].offsetWidth + 20; // card width + gap
+    const totalCards = cards.length;
+
+    currentIndex += n;
+
+    // Prevent overflow to the left or right
+    if (currentIndex < 0) {
+        currentIndex = 0;
+    } else if (currentIndex > totalCards - 1) {
+        currentIndex = totalCards - 1;
+    }
+
+    // Slide the container
+    sliderContainer.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+}
