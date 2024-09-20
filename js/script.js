@@ -65,18 +65,19 @@ let currentIndex = 0;
 function moveSlider(n) {
     const sliderContainer = document.querySelector('.slider-container');
     const cards = document.querySelectorAll('.card');
-    const cardWidth = cards[0].offsetWidth + 20; // card width + gap
+    const visibleCards = 4; // Menampilkan 4 card sekaligus
+    const cardWidth = cards[0].offsetWidth + 20; // lebar card + gap (20px)
     const totalCards = cards.length;
 
     currentIndex += n;
 
-    // Prevent overflow to the left or right
+    // Batas geser agar tidak melampaui card pertama atau terakhir
     if (currentIndex < 0) {
         currentIndex = 0;
-    } else if (currentIndex > totalCards - 1) {
-        currentIndex = totalCards - 1;
+    } else if (currentIndex > totalCards - visibleCards) {
+        currentIndex = totalCards - visibleCards;
     }
 
-    // Slide the container
+    // Menggeser container
     sliderContainer.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
 }
