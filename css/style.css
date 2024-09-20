@@ -1,49 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: "Poppins", sans-serif;
-    line-height: 1.6;
     background-color: #f1f2f6; 
     color: #2f3542; 
 }
 
 header {
-    background: #821131; 
-    padding: 20px;
+    background-color: #821131; 
+    display: block;
+    width: 100%;
+    height: 615px;
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    background-color: #821131;
+    width: 100%;
+    height: 90px; 
+    z-index: 1000;
 }
 
-.judul a {
+.judul {
     font-size: 24px;
     font-weight: bold;
     color: #ffffff; 
     text-decoration: none;
+    margin-left: 50px;
 }
 
-.nav ul {
-    list-style: none;
+nav ul {
+    padding-inline: 4rem;
     display: flex;
-    gap: 20px;
+    gap: 2rem;
+}
+ 
+nav li {
+    list-style-type: none;
 }
 
-.nav ul li a {
+nav ul li a {
+    
     text-decoration: none;
     color: #ffffff; 
     font-size: 18px;
 }
 
+nav ul li a:hover {
+    font-weight: bold;
+}
+
 .picture {
-    background: #FABC3F; 
-    height: 200px; 
+    /* background: #FABC3F;  */
+    height: 600px; 
+    margin: 0 20px 20px 20px;
+    padding-top: 90px;
+    margin-bottom: 20px;
+}
+
+.picture img{
+    width: 100%;
 }
 
 main {
